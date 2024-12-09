@@ -1,4 +1,4 @@
-name: VulnerableCore App - SonarCloud
+name: VulnerableCore App - Eureka SonarCloud
 
 # Controls when the action will run.
 on:
