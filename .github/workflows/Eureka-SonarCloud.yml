@@ -23,6 +23,6 @@ jobs:
           -e EUREKA_ENDPOINT="${{ secrets.EUREKA_ENDPOINT }}" \
           -e EUREKA_USER="${{ secrets.EUREKA_USER }}" \
           -e EUREKA_PASSWORD="${{ secrets.EUREKA_PASSWORD }}" \
-          -e PROFILE_INFO="${{ vars.EUREAK_PROFILE_INFO_SONAR }}" \
+          -e PROFILE_INFO="${{ vars.EUREKA_PROFILE_INFO_SONAR }}" \
           -e SONAR_USER_TOKEN="marcusplexus" \
           ${{ vars.EUREKA_REGISTRY_URL }}/${{ vars.EUREKA_REPO }}:${{ vars.EUREKA_TAG }}
